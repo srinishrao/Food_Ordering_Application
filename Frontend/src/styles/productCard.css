@@ -1,0 +1,55 @@
+.product__item {
+    border: 1px solid #fde4e4;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.product__img {
+    transition: 0.4s;
+    height: 180px;
+}
+
+.product__img:hover img {
+    transform: scale(1.2);
+}
+
+.product__content h5 a {
+    color: #212245;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.product__price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #df2020;
+    padding-top: 15px;
+}
+
+.update_button {
+    background: #007bff !important;
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.delete_button {
+    background: #df2020 !important;
+    color: white !important;
+    border: none;
+    border-radius: 5px;
+    margin: 0 16px 16px auto;
+    font-weight: 600;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

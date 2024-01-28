@@ -1,0 +1,138 @@
+.orders {
+    text-decoration: none;
+    color:rgb(53, 64, 74)
+}
+
+.search {
+    border: 1px solid #8f8fa1;
+    border-radius: 1.75rem;
+    padding: 5px 100px 5px 15px;
+    background: whitesmoke;
+    position: relative;
+}
+
+.search_icon,
+.close_search {
+    font-weight: bolder;
+    padding-right: 10px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.search_text {
+    color: rgb(53, 64, 74);
+    border: none;
+    width: 280px;
+    background: rgb(232, 240, 254) !important;   
+}
+
+input:focus {
+    outline: none;
+}
+
+.cart__icon i,
+.user i {
+    font-size: 1.3rem;
+    color: #212245;
+    cursor: pointer;
+}
+
+.cart__icon {
+    position: relative;
+}
+
+.cart__badge {
+    position: absolute;
+    top: 0px;
+    right: -12px;
+    background: #df2020;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rest__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.show_cart {
+    width: 350px;
+    height: 100vh;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    background: #fff;
+    z-index: 999999;
+}
+
+.no_cart {
+    display: none;
+}
+
+.cart_images {
+    width: 70px;
+    height: 70px;
+}
+
+.cart__item-info img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
+  
+.cart__product-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.cart__product-price {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #df2020;
+}
+  
+  
+.increase__decrease-btn {
+    background: #fde4e4;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.increase__btn,
+.decrease__btn {
+    cursor: pointer;
+}
+
+.delete__btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart__item {
+    margin: 25px;
+    border-bottom: 1px solid #fde4e4;
+}
+
+.cart__close {
+    display: flex;
+    color: white;
+    background: black;
+    width: max-content;
+    border-radius: 30px;
+    padding: 2px 5px;
+    margin: 5px;
+    cursor: pointer;
+}

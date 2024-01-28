@@ -1,0 +1,110 @@
+.header{
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    border-bottom: 1px solid gray;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    position: fixed;
+}
+
+.header__button {
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 600;
+}
+
+.header__button:hover {
+    color: #df2020;
+}
+
+.logo {
+    text-align: center;
+    padding-left: 40px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.logo h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+}
+
+.menu a {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #df2020;
+}
+
+.active__menu {
+    color: #df2020 !important;
+}
+
+.user i {
+    font-size: 1.3rem;
+    color: #212245;
+    cursor: pointer;
+    padding-right: 40px;  
+}
+
+.user_info {
+    width: 200px;
+    height: 170px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+
+.user_none {
+    display: none;
+}
+
+.user_name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.user_profile {
+    text-decoration: none;
+}
+
+.user_profile,
+.orders,
+.sign_out {
+    cursor: pointer;
+}
+
+.user_profile:hover,
+.orders:hover,
+.sign_out:hover {
+    opacity: 0.5;
+}
+
+.profile__image {
+    width: 350px;
+}
+
+.profile__images {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.profile__text {
+    width: 350px;
+}
+
+
+
+

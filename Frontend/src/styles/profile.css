@@ -1,0 +1,11 @@
+.formProfile {
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.heading {
+    text-align: center;
+}

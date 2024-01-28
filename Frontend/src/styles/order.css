@@ -1,0 +1,77 @@
+.order_heading {
+    text-align: center;
+    margin: 20px;
+}
+
+.order {
+    border: 1px solid #5c98d8;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.order_content {
+    margin: 15px;
+}
+
+.firstname {
+    color: #572af8;
+}
+
+.lastname {
+    color: #572af8;
+}
+
+.firstname {
+    padding-right: 8px;
+}
+
+.order_price {
+    color: #df2020;
+}
+
+.status_new {
+    color: #007bff;
+}
+
+.status_preparing {
+    color: #ffc107;
+}
+
+.status_ready {
+    color: #28a745;
+}
+
+.status_delivered {
+    color: #6c757d;
+}
+
+.status_canceled {
+    color: #dc3545;
+}
+
+.address {
+    color: #6b6b83;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6b6b83;
+}
+
+.item {
+    border-bottom: 1px solid #6b6b83;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.item_quantity,
+.item_name,
+.item_price {
+    padding-right: 40px;
+    font-size: 24px;
+}
+
+
